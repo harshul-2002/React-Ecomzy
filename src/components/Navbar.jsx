@@ -14,15 +14,16 @@ const Navbar = () => {
 
 
   return (
-    <nav className='flex flex-row justify-between items-center h-20 max-w-6xl mx-auto '>
+    <nav className='flex flex-row justify-between items-center h-20 max-w-6xl mx-auto text-white '>
       <NavLink to="/">
         <div className='ml-5 '>
-         <img src='../ecomzy.png' className='h-14'></img>
+         {/* <img src='../ecomzy.png' className='h-14'></img> */}
+         <span className="hover:text-green-500 transition duration-200">Home</span> 
         </div>
       </NavLink>
 
       <div className='flex items-center font-medium text-slate-100 mr-5 space-x-6'>
-        <NavLink to="/"> <span className="hover:text-green-500 transition duration-200">Home</span> </NavLink>
+        {/* <NavLink to="/"> <span className="hover:text-green-500 transition duration-200">Home</span> </NavLink> */}
 
         <NavLink to="/cart">
          <div className='relative'>
